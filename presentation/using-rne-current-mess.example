@@ -1,0 +1,41 @@
+// Add Preview https://snack.expo.io/B1jL2pe-W
+
+/*
+$primary-color-dark:   #FFA000
+$primary-color:        #FFC107
+$primary-color-light:  #FFECB3
+$primary-color-text:   #212121
+$accent-color:         #536DFE
+$primary-text-color:   #212121
+$secondary-text-color: #757575
+$divider-color:        #BDBDBD
+*/
+
+<Card
+  title="Fancy Card"
+  containerStyle={{ paddingHorizontal: 0, borderColor: "#BdBDBD" }}
+  dividerStyle={{ borderColor: "#BDBDBD" }}
+  titleStyle={{ color: "#212121" }}
+>
+  <ListItem
+    title="List 2"
+    subtitle="I am a subtitle"
+    titleStyle={{ color: '#212121'}}
+    subtitleStyle={{color: '#757575'}}
+  />
+  <Divider style={{ backgroundColor: '#BdBDBD'}}/>
+  <ListItem
+    title="List 3"
+    subtitle="I am a subtitle"
+    titleStyle={{ color: '#212121'}}
+    subtitleStyle={{color: '#757575'}}
+  />
+  <Divider style={{ backgroundColor: '#BdBDBD'}}/>
+  <Button
+    color="#212121"
+    backgroundColor="#FFC107"
+    title="Press Me!"
+    borderRadius={4}
+    buttonStyle={{ borderColor: '#FFA000', borderWidth: 1, marginTop: 10}}
+  />
+</Card>

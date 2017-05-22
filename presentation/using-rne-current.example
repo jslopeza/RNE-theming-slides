@@ -1,0 +1,7 @@
+<Button
+  color="#212121"
+  backgroundColor="#FFC107"
+  title="Press Me!"
+  borderRadius={4}
+  buttonStyle={{ borderColor: '#FFA000', borderWidth: 1}}
+/>
