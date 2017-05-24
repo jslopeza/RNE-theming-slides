@@ -145,6 +145,7 @@ export default class Presentation extends React.Component {
           <List>
             <ListItem>github.com/binoy14/react-native-theming</ListItem>
             <ListItem>github.com/react-native-training/react-native-elements</ListItem>
+            <ListItem>Slides: binoy14.github.io/RNE-theming-slides</ListItem>
           </List>
         </Slide>
       </Deck>
