@@ -1,0 +1,17 @@
+export default class ThemeProvider extends Component {
+  render() {
+    const { children } = this.props;
+    const count = React.Children.count(children);
+    if (count === 1) {
+      return React.Children.only(children);
+    } else {
+      return (
+        <View>
+          {children}
+        </View>
+      );
+    }
+
+    return null;
+  }
+}

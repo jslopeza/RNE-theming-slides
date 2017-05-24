@@ -1,0 +1,22 @@
+export default class ThemeProvider extends Component {
+  getChildContext() {
+    if (this.props.hasOwnProperty('theme')) {
+      const newTheme = {...defaultTheme, ...this.props.theme};
+      return {
+        theme: newTheme,
+      };
+    } else {
+      return {
+        theme: defaultTheme,
+      };
+    }
+  }
+
+  static childContextTypes = {
+    theme: React.PropTypes.object
+  }
+
+  render() {
+    ...
+  }
+}

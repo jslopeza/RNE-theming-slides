@@ -1,0 +1,20 @@
+class ParentComponent extends Component {
+  getChildContext() {
+    return {
+      theme: { color: 'blue' }
+    }
+  }
+
+  static childContextTypes = {
+    theme: PropTypes.object
+  }
+}
+
+export default class GrandChildComponent extends Component {
+  static contextTypes = {
+    theme: PropTypes.object
+  }
+
+  // this.context.theme
+  ...
+}

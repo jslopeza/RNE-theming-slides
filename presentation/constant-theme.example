@@ -1,0 +1,9 @@
+const buttonTheme = themeManager.getStyle('Button')
+
+const newButtonTheme = {
+  ...buttonTheme,
+  BUTTON_FONT_COLOR: '#fff',
+  BUTTON_PRIMARY_COLOR: '#2f8cff',
+}
+
+themeManager.setSource('Button', () => (newButtonTheme))

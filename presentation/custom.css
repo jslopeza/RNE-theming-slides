@@ -1,0 +1,16 @@
+.spectacle-content {
+  max-height: 980px !important;
+}
+
+pre[class*="language-"] {
+  font-size: 0.5em !important;
+}
+
+.snack-frame {
+  overflow:hidden;
+  background:#fafafa;
+  border:1px solid rgba(0,0,0,.16);
+  border-radius:4px;
+  height:600px;
+  width:100%
+}

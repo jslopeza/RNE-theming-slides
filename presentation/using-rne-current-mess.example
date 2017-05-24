@@ -1,16 +1,3 @@
-// Add Preview https://snack.expo.io/B1jL2pe-W
-
-/*
-$primary-color-dark:   #FFA000
-$primary-color:        #FFC107
-$primary-color-light:  #FFECB3
-$primary-color-text:   #212121
-$accent-color:         #536DFE
-$primary-text-color:   #212121
-$secondary-text-color: #757575
-$divider-color:        #BDBDBD
-*/
-
 <Card
   title="Fancy Card"
   containerStyle={{ paddingHorizontal: 0, borderColor: "#BdBDBD" }}
@@ -36,6 +23,6 @@ $divider-color:        #BDBDBD
     backgroundColor="#FFC107"
     title="Press Me!"
     borderRadius={4}
-    buttonStyle={{ borderColor: '#FFA000', borderWidth: 1, marginTop: 10}}
+    buttonStyle={{ borderWidth: 1, marginTop: 10}}
   />
 </Card>

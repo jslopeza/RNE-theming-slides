@@ -1,0 +1,29 @@
+const theme = {
+  dividerColor: '#BDBDBD',
+  primaryTextColor: '#212121',
+  secondaryTextColor: '#757575',
+  primaryColor: '#FFC107',
+};
+
+<ThemeProvider theme={theme}>
+  <Card
+    title="Fancy Card"
+    containerStyle={{ paddingHorizontal: 0 }}
+  >
+    <ListItem
+      title="List 2"
+      subtitle="I am a subtitle"
+    />
+    <Divider />
+    <ListItem
+      title="List 3"
+      subtitle="I am a subtitle"
+    />
+    <Divider />
+    <Button
+      title="Press Me!"
+      borderRadius={4}
+      buttonStyle={{ borderWidth: 1, marginTop: 10}}
+    />
+  </Card>
+</ThemeProvider>

@@ -1,0 +1,25 @@
+const theme = {
+  'library.ui.View': {
+    '.h-center': {
+      alignItems: 'center',
+    },
+    '.v-center': {
+      justifyContent: 'center',
+    },
+    '.flexible': {
+      flex: 1,
+    },
+    flexDirection: 'column',
+  },
+};
+
+class HelloWorld extends Component {
+  render() {
+    return (
+      <StyleProvider style={theme}>
+        <View styleName="flexible vertical v-center h-center">
+        </View>
+      </StyleProvider>
+    );
+  }
+}
