@@ -143,9 +143,9 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Text>Resources</Text>
           <List>
+            <ListItem>Slides: http://theming-slides.surge.sh/</ListItem>
             <ListItem>github.com/binoy14/react-native-theming</ListItem>
             <ListItem>github.com/react-native-training/react-native-elements</ListItem>
-            <ListItem>Slides: binoy14.github.io/RNE-theming-slides</ListItem>
           </List>
         </Slide>
       </Deck>
