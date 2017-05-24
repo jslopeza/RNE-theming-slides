@@ -78,7 +78,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]} bgColor="white" textColor="primary">
           <Heading size={4}>Color Palette</Heading>
-          <Image src={images.palette} />
+          <Image src={images.palette} width="80%"/>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>Using React Native Elements</Heading>
