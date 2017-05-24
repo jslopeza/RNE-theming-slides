@@ -9,17 +9,10 @@ const theme = {
     '.flexible': {
       flex: 1,
     },
-    flexDirection: 'column',
   },
 };
-
-class HelloWorld extends Component {
-  render() {
-    return (
-      <StyleProvider style={theme}>
-        <View styleName="flexible vertical v-center h-center">
-        </View>
-      </StyleProvider>
-    );
-  }
-}
+const HelloWorld = () =>(
+  <StyleProvider style={theme}>
+    <View styleName="flexible vertical v-center h-center" />
+  </StyleProvider>
+);

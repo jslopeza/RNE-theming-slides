@@ -11,13 +11,6 @@
     subtitleStyle={{color: '#757575'}}
   />
   <Divider style={{ backgroundColor: '#BdBDBD'}}/>
-  <ListItem
-    title="List 3"
-    subtitle="I am a subtitle"
-    titleStyle={{ color: '#212121'}}
-    subtitleStyle={{color: '#757575'}}
-  />
-  <Divider style={{ backgroundColor: '#BdBDBD'}}/>
   <Button
     color="#212121"
     backgroundColor="#FFC107"

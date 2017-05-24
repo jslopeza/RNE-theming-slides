@@ -86,7 +86,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={"spin"} bgColor="primary">
           <Heading size={5} textColor="secondary">Component Preview</Heading>
-          <Image src={images.preview} width="60%" />
+          <Image src={images.preview} width="40%" />
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>Implementation</Heading>

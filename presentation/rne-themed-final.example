@@ -1,17 +1,14 @@
 // Theming whole application
-
 <ThemeProvider theme={theme}>
   <App />
 </ThemeProvider>
 
 // Theming one component
-
 <ThemeProvider theme={theme}>
   <Button />
 </ThemeProvider>
 
 // Theming multiple components separately
-
 <ThemeProvider theme={lightTheme}>
   <Button />
   <Tile />

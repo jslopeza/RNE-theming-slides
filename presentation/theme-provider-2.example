@@ -11,11 +11,9 @@ export default class ThemeProvider extends Component {
       };
     }
   }
-
   static childContextTypes = {
     theme: React.PropTypes.object
   }
-
   render() {
     ...
   }
